@@ -39,7 +39,7 @@ YearAll <- bind_rows(     #Combine 2007,2008, 2009, 2010 to a common df
 
 #Renaming columns
 
-# YearAll <- plyr::rename(YearAll, Kitchen = Sub_metering_1,
+# YearAll <- plyr::rename(YearAll, Kitchen = Sub_metering_1, plyr vs dplyr installation issue
 #                         Laundry = Sub_metering_2, 
 #                         HVAC = Sub_metering_3,
 #                         Active = Global_active_power,
